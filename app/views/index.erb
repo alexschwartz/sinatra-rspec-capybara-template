@@ -1,0 +1,16 @@
+!DOCTYPE HTML>
+<html>
+<body>
+   <header>
+       <h1>YOUR PAGE</h1>
+   </header>
+   <div id="dynamic"></div>
+   
+   <script>
+       var parent = document.getElementById('dynamic');
+       var newdiv = document.createElement('div');
+       newdiv.setAttribute('id', '4567');
+       parent.appendChild(newdiv);
+   </script>
+</body>
+</html>

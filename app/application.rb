@@ -2,6 +2,6 @@ require 'sinatra/base'
 
 class Application < Sinatra::Base
   get '/' do
-    'Home page'
+    erb :index
   end
 end
