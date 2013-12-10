@@ -20,8 +20,10 @@ describe 'Home', :type => :feature, :js => true do
      page.should have_xpath("//div[@id='dynamic']")
   end
   
-  it "should have dynamically created element'" do
-     print page.html
-     page.should have_xpath("//div")
+  it "should have the dynamically created element'" do
+     ##print page.html
+     page.should have_xpath("//div[@id='4567']")
   end
+
+
 end
